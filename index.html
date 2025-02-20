@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="cmrnotix: A revolutionary educational platform for engineering students.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>cmrnotix - Engineering Education Reimagined</title>
+</head>
+<body>
+    <!-- Header: Navigation hub with accessibility focus -->
+    <header role="banner">
+        <nav aria-label="Main navigation">
+            <a href="/" class="logo" aria-label="cmrnotix homepage"><h1>cmrnotix</h1></a>
+            <ul class="nav-menu">
+                <li><a href="/firstyearnotes.html" aria-label="First Year Notes" class="highlight">1st Year</a></li>
+                <li><a href="/upperyearsnotes.html" aria-label="Upper Years Notes" class="highlight">2nd, 3rd, & 4th Year</a></li>
+            </ul>
+            <form role="search" class="search-form">
+                <input type="search" id="search" name="q" placeholder="Search notes..." aria-label="Search study notes" required>
+                <button type="submit" aria-label="Submit search">Search</button>
+            </form>
+        </nav>
+    </header>
+
+    <!-- Main: Enhanced with dynamic wave and smart suggestions -->
+    <main role="main">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-wave" aria-hidden="true"></div> <!-- Dynamic wave effect -->
+            <div class="hero-particles" aria-hidden="true"></div>
+            <h2 id="hero-title" class="welcome-text">Welcome to Your Engineering Journey</h2>
+            <p>Explore a world of knowledge designed to inspire, engage, and empower.</p>
+            <div class="hero-cta">
+                <a href="/firstyearnotes.html" class="btn primary-cta" aria-label="Start with First Year Notes" data-tooltip="Start here if you're new!">1st Year</a>
+                <a href="/upperyearsnotes.html" class="btn primary-cta" aria-label="Explore Upper Years Notes" data-tooltip="Advanced resources await!">2nd, 3rd, & 4th Year</a>
+            </div>
+            <div class="onboarding-message" role="alert" aria-live="polite">
+                <p>New here? Pick your year to dive into tailored engineering notes!</p>
+                <span class="onboarding-progress" aria-hidden="true"></span>
+            </div>
+            <!-- Smart Suggestion -->
+            <div class="smart-suggestion" role="complementary" aria-live="polite" style="display: none;">
+                <p>Try starting with <a href="/mechanics.html">Mechanics</a> – a popular choice for 1st Year!</p>
+            </div>
+        </section>
+
+        <section class="testimonials" aria-labelledby="testimonials-title">
+            <h3 id="testimonials-title">What Students Say</h3>
+            <ul class="testimonial-list">
+                <li>“cmrnotix made mechanics so much easier to grasp!” – Priya, 1st Year</li>
+                <li>“The design keeps me motivated to study.” – Arjun, 3rd Year</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer: Trust-building essentials -->
+    <footer role="contentinfo">
+        <p>© 2025 cmrnotix. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="/privacy.html" aria-label="Privacy Policy">Privacy</a></li>
+            <li><a href="/terms.html" aria-label="Terms of Service">Terms</a></li>
+            <li><a href="/accessibility.html" aria-label="Accessibility Statement">Accessibility</a></li>
+        </ul>
+    </footer>
+
+    <script src="/js/script.js" defer></script>
+</body>
+</html>

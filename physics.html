@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Physics notes for first-year engineering students on cmrnotix.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Physics - First Year Notes - cmrnotix</title>
+</head>
+<body>
+    <!-- Header: Consistent navigation hub -->
+    <header role="banner">
+        <nav aria-label="Main navigation">
+            <a href="/" class="logo" aria-label="cmrnotix homepage"><h1>cmrnotix</h1></a>
+            <ul class="nav-menu">
+                <li><a href="/firstyearnotes.html" aria-label="First Year Notes" class="highlight">1st Year</a></li>
+                <li><a href="/upperyearsnotes.html" aria-label="Upper Years Notes" class="highlight">2nd, 3rd, & 4th Year</a></li>
+            </ul>
+            <form role="search" class="search-form">
+                <input type="search" id="search" name="q" placeholder="Search notes..." aria-label="Search study notes" required>
+                <button type="submit" aria-label="Submit search">Search</button>
+            </form>
+        </nav>
+    </header>
+
+    <!-- Main: Chapter list with download/open options -->
+    <main role="main">
+        <section class="subject-intro" aria-labelledby="subject-title">
+            <h2 id="subject-title">Physics</h2>
+            <p>Dive into the principles of physics with comprehensive notes.</p>
+            <nav aria-label="Breadcrumb">
+                <ol class="breadcrumbs">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/firstyearnotes.html">First Year Notes</a></li>
+                    <li>Physics</li>
+                </ol>
+            </nav>
+        </section>
+
+        <section class="chapter-list" aria-labelledby="chapters-title">
+            <h3 id="chapters-title">Chapters</h3>
+            <ul class="chapters">
+                <li>
+                    <h4>Chapter 1: Kinematics</h4>
+                    <div class="chapter-actions">
+                        <a href="/assets/media/ch1_physics.pdf" download aria-label="Download Chapter 1 Notes">Download</a>
+                        <a href="/assets/media/ch1_physics.pdf" target="_blank" aria-label="Open Chapter 1 Notes">Open</a>
+                    </div>
+                </li>
+                <li>
+                    <h4>Chapter 2: Energy and Work</h4>
+                    <div class="chapter-actions">
+                        <a href="/assets/media/ch2_physics.pdf" download aria-label="Download Chapter 2 Notes">Download</a>
+                        <a href="/assets/media/ch2_physics.pdf" target="_blank" aria-label="Open Chapter 2 Notes">Open</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="error-message" role="alert" aria-live="polite" style="display: none;">
+                <p>Oops! No chapters match your search. Try "Kinematics" or "Energy."</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer: Consistent trust elements -->
+    <footer role="contentinfo">
+        <p>© 2025 cmrnotix. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="/privacy.html" aria-label="Privacy Policy">Privacy</a></li>
+            <li><a href="/terms.html" aria-label="Terms of Service">Terms</a></li>
+            <li><a href="/accessibility.html" aria-label="Accessibility Statement">Accessibility</a></li>
+        </ul>
+    </footer>
+
+    <script src="/js/script.js" defer></script>
+</body>
+</html>

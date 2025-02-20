@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="First-year engineering notes on cmrnotix.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>First Year Notes - cmrnotix</title>
+</head>
+<body>
+    <!-- Header: Consistent navigation hub -->
+    <header role="banner">
+        <nav aria-label="Main navigation">
+            <a href="/" class="logo" aria-label="cmrnotix homepage"><h1>cmrnotix</h1></a>
+            <ul class="nav-menu">
+                <li><a href="/firstyearnotes.html" aria-label="First Year Notes" class="highlight">1st Year</a></li>
+                <li><a href="/upperyearsnotes.html" aria-label="Upper Years Notes" class="highlight">2nd, 3rd, & 4th Year</a></li>
+            </ul>
+            <form role="search" class="search-form">
+                <input type="search" id="search" name="q" placeholder="Search notes..." aria-label="Search study notes" required>
+                <button type="submit" aria-label="Submit search">Search</button>
+            </form>
+        </nav>
+    </header>
+
+    <!-- Main: Subject list with error handling -->
+    <main role="main">
+        <section class="notes-intro" aria-labelledby="notes-title">
+            <h2 id="notes-title">First Year Engineering Notes</h2>
+            <p>Select a subject to explore chapters and access your study materials.</p>
+            <nav aria-label="Breadcrumb">
+                <ol class="breadcrumbs">
+                    <li><a href="/">Home</a></li>
+                    <li>First Year Notes</li>
+                </ol>
+            </nav>
+        </section>
+
+        <section class="subject-list" aria-labelledby="subjects-title">
+            <h3 id="subjects-title">Available Subjects</h3>
+            <ul class="subjects">
+                <li><a href="/mechanics.html" aria-label="Mechanics Notes">Mechanics</a></li>
+                <li><a href="/physics.html" aria-label="Physics Notes">Physics</a></li>
+                <li><a href="#" aria-label="Mathematics Notes">Mathematics</a></li>
+            </ul>
+            <div class="error-message" role="alert" aria-live="polite" style="display: none;">
+                <p>Oops! No subjects match your search. Try "Mechanics" or "Physics."</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer: Consistent trust elements -->
+    <footer role="contentinfo">
+        <p>© 2025 cmrnotix. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="/privacy.html" aria-label="Privacy Policy">Privacy</a></li>
+            <li><a href="/terms.html" aria-label="Terms of Service">Terms</a></li>
+            <li><a href="/accessibility.html" aria-label="Accessibility Statement">Accessibility</a></li>
+        </ul>
+    </footer>
+
+    <script src="/js/script.js" defer></script>
+</body>
+</html>

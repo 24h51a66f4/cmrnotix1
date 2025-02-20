@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Notes for 2nd, 3rd, and 4th-year engineering students on cmrnotix.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Upper Years Notes - cmrnotix</title>
+</head>
+<body>
+    <!-- Header: Consistent navigation hub -->
+    <header role="banner">
+        <nav aria-label="Main navigation">
+            <a href="/" class="logo" aria-label="cmrnotix homepage"><h1>cmrnotix</h1></a>
+            <ul class="nav-menu">
+                <li><a href="/firstyearnotes.html" aria-label="First Year Notes" class="highlight">1st Year</a></li>
+                <li><a href="/upperyearsnotes.html" aria-label="Upper Years Notes" class="highlight">2nd, 3rd, & 4th Year</a></li>
+            </ul>
+            <form role="search" class="search-form">
+                <input type="search" id="search" name="q" placeholder="Search notes..." aria-label="Search study notes" required>
+                <button type="submit" aria-label="Submit search">Search</button>
+            </form>
+        </nav>
+    </header>
+
+    <!-- Main: Year selection placeholder -->
+    <main role="main">
+        <section class="notes-intro" aria-labelledby="notes-title">
+            <h2 id="notes-title">2nd, 3rd, & 4th Year Engineering Notes</h2>
+            <p>Advanced resources coming soon. Select your year to explore.</p>
+            <nav aria-label="Breadcrumb">
+                <ol class="breadcrumbs">
+                    <li><a href="/">Home</a></li>
+                    <li>Upper Years Notes</li>
+                </ol>
+            </nav>
+        </section>
+
+        <section class="year-list" aria-labelledby="years-title">
+            <h3 id="years-title">Select Your Year</h3>
+            <ul class="subjects">
+                <li><a href="#" aria-label="Second Year Notes">2nd Year</a></li>
+                <li><a href="#" aria-label="Third Year Notes">3rd Year</a></li>
+                <li><a href="#" aria-label="Fourth Year Notes">4th Year</a></li>
+            </ul>
+            <div class="error-message" role="alert" aria-live="polite" style="display: none;">
+                <p>Oops! No years match your search. Try "2nd" or "3rd."</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer: Consistent trust elements -->
+    <footer role="contentinfo">
+        <p>© 2025 cmrnotix. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="/privacy.html" aria-label="Privacy Policy">Privacy</a></li>
+            <li><a href="/terms.html" aria-label="Terms of Service">Terms</a></li>
+            <li><a href="/accessibility.html" aria-label="Accessibility Statement">Accessibility</a></li>
+        </ul>
+    </footer>
+
+    <script src="/js/script.js" defer></script>
+</body>
+</html>
